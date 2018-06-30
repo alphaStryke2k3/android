@@ -4,10 +4,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
-import android.support.v7.app.NotificationCompat;
 
-import com.bitlove.fetlife.FetLifeApplication;
 import com.bitlove.fetlife.R;
 import com.bitlove.fetlife.event.AuthenticationFailedEvent;
 import com.bitlove.fetlife.event.LatestReleaseEvent;
@@ -31,7 +28,6 @@ import com.bitlove.fetlife.model.service.FetLifeApiIntentService;
 import com.bitlove.fetlife.model.service.ServiceCallCancelReceiver;
 import com.bitlove.fetlife.notification.UpdateBroadcastReceiver;
 import com.bitlove.fetlife.notification.UpdateNotification;
-import com.bitlove.fetlife.util.AppUtil;
 import com.bitlove.fetlife.util.NotificationUtil;
 import com.bitlove.fetlife.util.VersionUtil;
 import com.bitlove.fetlife.view.screen.BaseActivity;
